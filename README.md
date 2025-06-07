@@ -34,3 +34,14 @@ flutter clean
 flutter pub get
 flutter run
 ```
+
+## 📊 Resultados del Monitoreo
+
+### Comportamiento normal
+✅ Conversiones instantáneas (menos de 50ms)
+✅ Actualización correcta de ambos campos
+✅ Dispose correcto al cerrar la app
+
+### Posibles mejoras
+⚠ Campo no se limpia después de conversión inválida
+⚠ Falta feedback visual para entradas no numéricas
